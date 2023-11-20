@@ -7,7 +7,7 @@ using System.Web.Mvc;
 
 namespace MVC_Tutorial.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : Controller 
     {
         public ActionResult Index()
         {
@@ -35,5 +35,13 @@ namespace MVC_Tutorial.Controllers
             ViewBag.Studentt = studentt;
             return View();
         }
+
+        public ActionResult Button()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
     }
 }
