@@ -27,7 +27,7 @@ namespace MVC_Tutorial.Controllers
 
             return View();
         }
-
+        //course
         public ActionResult Course(int id)
         {
            Coursedetails cds = new Coursedetails();
